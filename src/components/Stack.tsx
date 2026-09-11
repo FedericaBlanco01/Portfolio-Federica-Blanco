@@ -6,21 +6,14 @@ export default function Stack() {
       <div className="mx-auto w-[88%] max-w-[1240px] py-16 md:py-[100px]">
         <div
           data-reveal
-          className="mb-9 flex flex-col gap-7 md:flex-row md:items-end md:justify-between [&_h2]:mb-0 [&>p]:max-w-60 [&>p]:text-[13px] [&>p]:leading-relaxed [&>p]:text-muted"
+          className="mb-9 [&_h2]:mb-0"
         >
           <div>
             <div className="mb-7 font-mono text-[10px] tracking-[1.3px] text-muted">
               03 / CAPABILITIES
             </div>
-            <h2>
-              A considered toolkit.
-              <br />A broader perspective.
-            </h2>
+            <h2>Technologies & skills</h2>
           </div>
-          <p>
-            From the interface to the infrastructure, and the people behind
-            both.
-          </p>
         </div>
         <div className="mt-9 grid gap-9 md:mt-12 md:grid-cols-3 md:[&>article:nth-child(2)]:[--reveal-delay:100ms] md:[&>article:nth-child(3)]:[--reveal-delay:200ms] [&>article]:border-t [&>article]:border-line [&>article]:pt-6 [&_h3]:mb-3 [&_h3]:text-[19px] [&_h3]:font-medium [&_p]:text-xs [&_p]:text-muted">
           <article data-reveal>
