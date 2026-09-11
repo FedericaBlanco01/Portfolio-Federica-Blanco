@@ -21,7 +21,7 @@ export const experience: ExperienceEntry[] = [
     date: "OCT 2025 — PRESENT",
     role: "Team Leader · Technical Project Manager",
     description:
-      "Lead a team of four software engineers and one technical lead, connecting Disney stakeholders with engineering execution. Translate business needs and user pain points into delivery priorities, epics and actionable user stories, while keeping scope, risks and progress visible across teams.",
+      "Lead a team of four software engineers and one technical lead, connecting stakeholders at a major streaming platform with engineering execution. Translate business needs and user pain points into delivery priorities, epics and actionable user stories, while keeping scope, risks and progress visible across teams.",
     tags: [
       "Team leadership",
       "Technical delivery",
@@ -32,14 +32,14 @@ export const experience: ExperienceEntry[] = [
     ],
     projects: [
       {
-        name: "Playback Inspector · Disney+",
+        name: "Streaming Quality Platform",
         focus: "Streaming · Internal quality-control platform",
         description:
           "Lead development of an internal platform used to validate streaming assets. Coordinate feature delivery across web, mobile and platform integrations, bringing stakeholder requirements into the engineering backlog. Present product demos and milestones, gather feedback and turn it into concrete improvements for subsequent iterations.",
       },
     ],
     details:
-      "Facilitate sprint planning, daily stand-ups, retrospectives and backlog refinement to maintain shared priorities and surface blockers. Act as the primary point of contact for Disney stakeholders, communicating delivery timelines, risks and progress, and coordinating cross-team collaboration to move features through to delivery.",
+      "Facilitate sprint planning, daily stand-ups, retrospectives and backlog refinement to maintain shared priorities and surface blockers. Act as the primary point of contact for client stakeholders, communicating delivery timelines, risks and progress, and coordinating cross-team collaboration to move features through to delivery.",
   },
   {
     company: "Flow Labs",

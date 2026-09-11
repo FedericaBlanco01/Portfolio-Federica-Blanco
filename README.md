@@ -34,7 +34,7 @@ Los componentes usan utilidades de Tailwind para layout, tipografía, espaciado 
 
 Se eligió Vite 6 por compatibilidad con el Node 18.18 disponible en este entorno. Las versiones instaladas quedan fijadas en `package-lock.json`.
 
-El contenido profesional se basa en el CV proporcionado. El PDF descargable es el original, con sus datos de contacto. Este proyecto todavía no fue publicado.
+El contenido profesional se basa en el CV proporcionado. El PDF descargable es una versión pública con el cliente de streaming anonimizado. Al reemplazarlo, mantener esa anonimización.
 
 Referencia: [integración oficial de Tailwind con Vite](https://tailwindcss.com/docs/installation/using-vite).
 
