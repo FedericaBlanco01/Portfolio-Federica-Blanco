@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0b0b" />
+    <meta
+      name="description"
+      content="Federica Blanco — Full Stack Developer and Team Leader based in Montevideo. Web and mobile engineering, frontend craft and technical delivery."
+    />
+    <script>
+      (() => {
+        let theme = "dark";
+        try {
+          if (localStorage.getItem("portfolio-theme") === "light")
+            theme = "light";
+        } catch {}
+        let font = "sans";
+        try {
+          if (localStorage.getItem("portfolio-font") === "mono") font = "mono";
+        } catch {}
+        document.documentElement.dataset.font = font;
+        document.documentElement.dataset.theme = theme;
+        document
+          .querySelector('meta[name="theme-color"]')
+          .setAttribute("content", theme === "light" ? "#f7f6f2" : "#0b0b0b");
+      })();
+    </script>
+    <title>Federica Blanco</title>
+    <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
