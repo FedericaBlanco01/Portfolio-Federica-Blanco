@@ -1,13 +1,11 @@
 import Tags from "./Tags";
+import SpecDrivenWork from "./SpecDrivenWork";
 
 export default function Stack() {
   return (
     <section id="stack" className="border-y border-line bg-surface">
       <div className="mx-auto w-[88%] max-w-[1240px] py-16 md:py-[100px]">
-        <div
-          data-reveal
-          className="mb-9 [&_h2]:mb-0"
-        >
+        <div data-reveal className="mb-9 [&_h2]:mb-0">
           <div>
             <div className="mb-7 font-mono text-[10px] tracking-[1.3px] text-muted">
               03 / CAPABILITIES
@@ -65,6 +63,7 @@ export default function Stack() {
             />
           </article>
         </div>
+        <SpecDrivenWork />
       </div>
     </section>
   );
